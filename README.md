@@ -130,7 +130,7 @@ if __name__ == '__main__':
     server.serve_forever()
 ```
 
-Save and exit (Ctrl+X, Y, Enter)
+Save and exit (Ctrl+O, Enter, Ctrl+X)
 
 Make it executable:
 ```bash
@@ -214,7 +214,7 @@ matcher: default-matcher
         target discord-backup
 ```
 
-Save and exit (Ctrl+X, Y, Enter)
+Save and exit (Ctrl+O, Enter, Ctrl+X)
 
 ---
 
