@@ -1,0 +1,14 @@
+[Unit]
+Description=Proxmox to Discord Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt
+ExecStart=/usr/bin/python3 /opt/proxmox-discord-bridge.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
